@@ -120,7 +120,7 @@ body {
 }
 .card:hover .size, .color, .action {
     visibility: visible;
-    opacity: 100;
+    opacity: 1;
 }
 .card:hover .size {
     margin-top: -30px;
