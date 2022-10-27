@@ -218,13 +218,16 @@ a {
     display: flex;
     flex-wrap: wrap;
     padding: 2px 24px;
+    margin-bottom: 68px;
 }
 .project {
-    width: 300px;
+    width: 22%;
     height: 370px;
     position: relative;
-    margin-right: 4px;
+    margin: 10px 12px;
     transition: 0.25s;
+    overflow: hidden;
+    border-radius: 8px;
 }
 .project a img {
     height: 370px;
