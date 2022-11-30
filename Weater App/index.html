@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="weatherApp.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body >
+    <div class="weather">
+        <input type="text" placeholder="Search..." class="search">
+        <div class="content">
+            <h1 class="capital">
+                <span class="city">Ha Noi</span>
+                <span>, </span>
+                <span class="country">Viet Nam</span>
+            </h1>
+            <p class="time"></p>
+            <div class="temperature">
+                <span class="value">17</span>
+                <span><sup>o</sup>C</span>
+            </div>
+            <div class="short_desc">Clouds</div>
+            <div class="little_desc">
+                <div class="visibility">
+                    <i class='bx bx-show-alt'></i>
+                    <span></span>
+                </div>
+                <div class="wind">
+                    <i class='bx bx-wind'></i>
+                    <span></span>
+                </div>
+                <div class="humidity">
+                    <i class='bx bxs-cloud'></i>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
