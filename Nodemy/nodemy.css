@@ -118,9 +118,12 @@ a {
 }
 /* CSS BANNER */
 #banner {
+    justify-content: center;
+    text-align: center;
     height: 460px;
     position: relative;
     top: 128px;
+    display: flex;
 }
 #content_banner {
     z-index: 2;
@@ -183,7 +186,6 @@ a {
 #contact_by {
     position: absolute;
     top: 320px;
-    left: 25%;
 }
 .contact {
     height: 52px;
@@ -232,7 +234,7 @@ a {
 }
 .project a img {
     height: 370px;
-    width: 300px;
+    width: 100%;
     object-fit: cover;
     border-radius: 8px;
 }
@@ -279,6 +281,7 @@ a {
 .project:hover {
     background-color: #0de49d;
     border-radius: 8px;
+    transition: 0.25s;
 }
 .project:hover span {
     opacity: 0;
